@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+  /* Variables For Storing Colors */
+  --primary-clr: #70b730;
+  --primary-dark-clr: #509710;
+  --bg-clr: #f6f6f6;
+  --dark-heading-clr: #212121;
+  --light-heading-clr: #fefefe;
+  --light-text-clr: #a9a9a9;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-clr);
+}
+.container-2 {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .section-header {
+  /* position: relative; */
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.nav-btn button {
+  color: white;
+  background-color: #495567;
+  padding: 2rem;
+  text-decoration: none;
+  border: none;
+  font-size: 3.2rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.container .slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.slider .slider-item {
+  width: 300px;
+  z-index: 0;
+  max-height: 400px;
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: left 0.5s cubic-bezier(0.645, 0.045, 0.354, 1);
+  overflow: hidden;
+  display: inline-block;
+}
+
+.slider-item:nth-child(1) {
+  left: calc(-300px + -20px);
+}
+.slider-item:nth-child(2) {
+  left: 0;
+}
+.slider-item:nth-child(3) {
+  left: calc(300px + 20px);
+}
+.slider-item:nth-child(4) {
+  left: calc((300px + 20px) * 2);
+}
+.slider-item:nth-child(5) {
+  left: calc((300px + 20px) * 3);
+}
+.slider-item:nth-child(6) {
+  left: calc((300px + 20px) * 4);
+}
+.slider-item:nth-child(7) {
+  left: calc((300px + 20px) * 5);
+}
+.slider-item:nth-child(8) {
+  left: calc((300px + 20px) * 6);
+}
+
+.slider-item img {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.slider-background {
+  display: block;
+  background-color: #495567;
+  width: 35rem;
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.slider-background p {
+  color: #fff;
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 2rem;
+}
