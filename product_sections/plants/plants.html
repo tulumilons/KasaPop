@@ -26,10 +26,10 @@
       src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
     ></script>
     <script defer src="../../js/script.js"></script>
+    <link rel="stylesheet" href="../../css/general.css" />
     <link rel="stylesheet" href="../../css/slider_style.css" />
     <link rel="stylesheet" href="../../css/style.css" />
     <link rel="stylesheet" href="../../css/queries.css" />
-    <link rel="stylesheet" href="../../css/general.css" />
   </head>
   <body>
     <header class="header">
@@ -58,6 +58,70 @@
         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
       </button>
     </header>
+
+    <main>
+      <section class="section-welcome container">
+        <h1 class="heading-primary">
+          Natureza e Bem-Estar ao Seu Alcance! 🌱✨
+        </h1>
+        <p class="welcome-text">
+          A seção de plantas da Kasa Pop traz vida e frescor aos ambientes,
+          oferecendo uma seleção de espécies ornamentais e mudas para jardins.
+          Com acessórios como vasos e fertilizantes, é o espaço perfeito para
+          quem busca praticidade ao cultivar beleza e bem-estar.
+        </p>
+      </section>
+
+      <section class="section-sales">
+        <div class="container">
+          <!--   === Section Header Starts ===   -->
+          <h1 class="heading-primary">Plantas</h1>
+          <!--   === Section Header Ends ===   -->
+          <!--   === Slider Starts ===   -->
+          <div class="slider slider-sales">
+            <div class="slider-item">
+              <a
+                class="slider-background-sales"
+                href="product_sections/home_appliance/home_appliance.html"
+              >
+                <img
+                  class="product-image"
+                  src="../../img/product-images/plants/dragon_tree.jpg"
+                  alt=""
+                />
+                <p class="product-name">Dragoeiro</p>
+                <p class="product-price">R$19.99</p>
+              </a>
+            </div>
+
+            <div class="slider-item">
+              <a
+                class="slider-background-sales"
+                href="product_sections/home_appliance/home_appliance.html"
+              >
+                <img
+                  class="product-image"
+                  src="../../img/product-images/plants/dragon_tree.jpg"
+                  alt=""
+                />
+                <p class="product-name">Dragoeiro</p>
+                <p class="product-price">R$19.99</p>
+              </a>
+            </div>
+          </div>
+          <!--   === Slider Ends ===   -->
+          <div class="nav-btn">
+            <button id="prev_btn">←</button>
+            <button id="next_btn">→</button>
+          </div>
+          <!-- <div class="navigation-btns">
+            <i class="fas fa-arrow-left" id="prev_btn"></i>
+            <i class="fas fa-arrow-right" id="next_btn"></i>
+          </div> -->
+        </div>
+      </section>
+    </main>
+
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
@@ -133,6 +197,6 @@
         </nav>
       </div>
     </footer>
-    <script type="text/javascript" src="js/slider_script.js"></script>
+    <script type="text/javascript" src="../../js/slider_script.js"></script>
   </body>
 </html>

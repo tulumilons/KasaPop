@@ -69,6 +69,10 @@ body {
   display: inline-block;
 }
 
+.slider-item a {
+  text-decoration: none;
+}
+
 .slider-item:nth-child(1) {
   left: calc(-300px + -20px);
 }
@@ -100,6 +104,12 @@ body {
   height: 50%;
   object-fit: cover;
   border-radius: 15px;
+  object-position: center;
+}
+
+.slider-item .product-image {
+  height: 30rem;
+  width: 40rem;
 }
 
 .slider-background {
@@ -112,6 +122,34 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.slider-sales {
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.slider-background-sales {
+  text-decoration: none;
+  color: #212121;
+}
+
+.product-name {
+  font-size: 2.4rem;
+  background-color: #fff;
+  height: 10rem;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-price {
+  background: #509710;
+  color: #fff;
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 2rem;
 }
 
 .slider-background p {
