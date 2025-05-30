@@ -53,7 +53,7 @@ body {
 .container .slider {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 43rem;
   overflow: hidden;
 }
 .slider .slider-item {
@@ -108,7 +108,7 @@ body {
 }
 
 .slider-item .product-image {
-  height: 30rem;
+  height: 20rem;
   width: 40rem;
 }
 
@@ -122,6 +122,30 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+.stars_rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 30rem;
+}
+
+.stars {
+  display: flex;
+  padding: 1rem;
+}
+
+.stars img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.rating {
+  font-size: 2rem;
+  color: #646464;
+  font-weight: bold;
 }
 
 .slider-sales {
