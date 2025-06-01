@@ -100,8 +100,6 @@ body {
 
 .slider-item img {
   text-align: center;
-  width: 50%;
-  height: 50%;
   object-fit: cover;
   border-radius: 15px;
   object-position: center;
